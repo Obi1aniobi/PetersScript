@@ -1,6 +1,7 @@
-let n = 3;
+let n = 3;      //variable for counting the number of loops
 let string = "";
-for (let i = 1; i <= n; i++) {
+let i;
+for (i = 1; i <= n; i++) {
   for (let j = 0; j < i; j++) {
     string += "*";
   }
