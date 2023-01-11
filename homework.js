@@ -1,3 +1,5 @@
+//code to display 3 line star
+
 let n = 3;      //variable for counting the number of loops
 
 let string = "";        //variable called string for holding an empty string... why?
@@ -19,6 +21,10 @@ console.log(string);                                                    //Log st
 
 
 
+
+
+
+//code to display 100 lines of star
 
 let b = 100;
 let bString = "";
