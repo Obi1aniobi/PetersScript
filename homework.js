@@ -1,6 +1,6 @@
 let n = 3;      //variable for counting the number of loops
 
-let string = "";        //variable for called string for holding an empty string... why?
+let string = "";        //variable called string for holding an empty string... why?
 
 let i;                          //variable called i acts as the counter
 
@@ -10,11 +10,11 @@ for (i = 1; i <= n; i++) {              //an external 'for' loop with a conditio
     for (let j = 0; j < i; j++) {               //An internal 'for' loop with a condition that is a counter that runs only one time
     
     
-        string += "*";                                  //
+        string += "*";                                  //add to the following its value
   }
-  string += "\n";
+  string += "\n";                                               //add a break after each star is logged into the console.
 }
-console.log(string);
+console.log(string);                                                    //Log string into the console
 
 
 
