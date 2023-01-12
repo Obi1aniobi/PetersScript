@@ -37,10 +37,47 @@ for (let i = 1; i <= b; i++) {
 console.log(bString);
 
 
-const input = 'Oh my goodness';
+/*const input = 'Oh my goodness';
 
  const vowels = ['a', 'e', 'i', 'o', 'u'];
 
  console.log(vowels);
 
- console.log(vowels[4]);
+ console.log(vowels[4]);*/
+
+
+
+
+
+ let input = 'oh my goodness';
+
+let vowel = ['a', 'e', 'i', 'o', 'u'];
+
+let resultArray =[];
+
+for (x=0; x< input.length; x++){
+
+  for (y=0; y<vowel.length; y++){
+
+    if (input[x] === vowel [y]){
+
+      if (input[x] === "e") {
+
+        resultArray.push ('ee')
+
+      }else if (input[x] === "u"){
+
+        resultArray.push ('uu')
+
+      }else {
+        resultArray.push (input[x])
+
+      }
+
+    }
+
+  }
+
+}
+
+console.log (resultArray.join('').toUpperCase())
