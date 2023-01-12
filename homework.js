@@ -35,3 +35,12 @@ for (let i = 1; i <= b; i++) {
   bString += "\n";
 }
 console.log(bString);
+
+
+const input = 'Oh my goodness';
+
+ const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+ console.log(vowels);
+
+ console.log(vowels[4]);
